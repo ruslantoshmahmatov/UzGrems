@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { min-height: 100%; }
+body { margin: 0; background: #0B0B14; color: white; font-family: Inter, system-ui, sans-serif; }
+.display-font { font-family: Inter, system-ui, sans-serif; }
+* { box-sizing: border-box; }

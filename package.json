@@ -1,0 +1,11 @@
+{
+  "name": "uzgrems",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "npm --prefix frontend install && npm --prefix frontend run build && rm -rf frontend-dist && cp -r frontend/dist frontend-dist",
+    "start": "npm --prefix backend install && node backend/server.js"
+  },
+  "dependencies": {}
+}
